@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'GmarketSans';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GmarketSansBold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'tvnEnjoy';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSansKR';
+	font-weight: 400;
+	font-style: normal;
+	src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.eot');
+	src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
+			url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.woff2') format('woff2'),
+			url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.woff') format('woff'),
+			url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.ttf') format("truetype");
+	font-display: swap;
+} 
+
+.clockImg{
+	position: relative;
+	z-index: 1;
+} 
+
+.logoImg {
+	position: absolute;
+	z-index: 2;
+	margin: 0 auto;
+}
+
+.img-container {
+	margin: 140px 0 66px 0;
+	align-items: center;
+}
+
+.text-container {
+	margin: 78px 0;
+}
+
+.calculate-btn-div {
+	margin: 115px auto;
+}
+
+.calculate-btn-div img {
+	position: absolute;
+	width: 64px;
+	height: 112px;
+	flex-shrink: 0;
+}
+
+.input-box {
+	color: black;
+}
+
+.modal-img {
+	margin-bottom: 26px;
+}
